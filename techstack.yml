@@ -1,0 +1,454 @@
+repo_name: instagated/bolt-auction-backend
+report_id: cbf4cf9aa6c0485e11c9086440949e48
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:28:04+00:00'
+requested_by: hscom96
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-18 06:08:14.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-20 16:08:05.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: ki1556ki
+  last_updated_on: 2020-03-12 10:14:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-01-28 06:42:17.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/.travis.yml
+  detection_source: platform/.travis.yml
+  last_updated_by: root
+  last_updated_on: 2020-03-02 14:16:42.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/gateway/pom.xml
+  detection_source: gateway/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-17 18:25:09.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/src/main/resources/application.yml
+  detection_source: communication/src/main/resources/application.yml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:03:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend
+  detection_source: Repo Metadata
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-18 06:08:14.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: net.minidev:json-smart
+  description: JSON
+  version: '2.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: ki1556ki
+  last_updated_on: 2020-02-16 09:03:31.000000000 Z
+  vulnerabilities:
+  - name: json-smart Uncontrolled Recursion vulnerabilty
+    cve_id: CVE-2023-1370
+    cve_url: https://github.com/advisories/GHSA-493p-pfq6-5258
+    detected_date: Mar 24
+    severity: high
+    first_patched: 2.4.9
+  - name: Improper Check for Unusual or Exceptional Conditions in json-smart
+    cve_id: CVE-2021-27568
+    cve_url: https://github.com/advisories/GHSA-v528-7hrm-frqp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.3.1
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+  vulnerabilities:
+  - name: Cross-site scripting in Apache HttpClient
+    cve_id: CVE-2020-13956
+    cve_url: https://github.com/advisories/GHSA-7r82-7xv7-xcpj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.5.13
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-18 06:08:14.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  version: 2.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  version: 2.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: ki1556ki
+  last_updated_on: 2020-02-02 05:27:28.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.apache.commons:commons-pool2
+  description: The Apache Commons Object Pooling Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-28 17:35:35.000000000 Z
+- name: org.modelmapper:modelmapper
+  description: Simple, Intelligent, Object Mapping
+  version: 2.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-28 17:35:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/communication/pom.xml
+  detection_source: communication/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-21 20:42:12.000000000 Z
+- name: org.springframework.hateoas:spring-hateoas
+  description: "Library to support implementing representations for \t\thyper-text
+    driven REST web services"
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-28 17:35:35.000000000 Z
+- name: org.springframework.plugin:spring-plugin-core
+  description: Core plugin infrastructure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-28 17:35:35.000000000 Z
+- name: org.springframework.security:spring-security-jwt
+  description: Spring Security JWT is a small utility library for encoding and decoding
+    JSON Web Tokens
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/instagated/bolt-auction-backend/blob/master/platform/pom.xml
+  detection_source: platform/pom.xml
+  last_updated_by: hscom96
+  last_updated_on: 2020-03-28 17:35:35.000000000 Z
